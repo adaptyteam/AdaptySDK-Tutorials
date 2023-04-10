@@ -1,0 +1,120 @@
+{
+  "identifier" : "C85BAC35",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "CA631B9E",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Tournament Streaming",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "tournamentStreaming",
+      "referenceName" : "Tournament Streaming",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "9471FA92",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Indestructible Stone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "stone",
+      "referenceName" : "Stone",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "8D163B2F",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Life Heart",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "heart",
+      "referenceName" : "Heart",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "335E503B",
+      "localizations" : [
+
+      ],
+      "name" : "Membership",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C1E8D420",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "membership.pro",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro",
+          "subscriptionGroupID" : "335E503B",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "8BD41A7A",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "membership.elite",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Elite",
+          "subscriptionGroupID" : "335E503B",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
